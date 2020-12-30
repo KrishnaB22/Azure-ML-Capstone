@@ -1,12 +1,13 @@
 import json
 import numpy as np
 import os
-from sklearn.externals import joblib
+import joblib
 
 
 def init():
     global model
-    model_path = os.path.join(os.getenv('AZUREML_MODEL_DIR'), './outputs/heart-diesease-auto-model.pkl')
+    #model_path = os.path.join(os.getenv('AZUREML_MODEL_DIR'), './heart-diesease-auto-model.pkl')
+    model_path = 'azureml-models/automl_cap/1/heart-diesease-auto-model.pkl'
     model = joblib.load(model_path)
 
 def run(data):
