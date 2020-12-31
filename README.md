@@ -18,7 +18,6 @@ The best model was AutoML which gave an accuracy of 93%.<br>
 The best model is then deployed as a web service on Azure Container Instances.
 The model endpoints are then consumed by using the custom <i>score.py</i> script.
 <br><br>
-<br><br>
 ## Dataset
 
 ### Overview
@@ -32,7 +31,11 @@ For the task we are going to use all the given features in the dataset.
 The data is accessed in ML Studio workspace by using its url.<br>
 <br><br>
 ## Automated ML
-*TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
+Automated Machine Learning(AutoML) is the process of automating the entire Machine Learning pipeline.
+The AutoMLConfig class is used specify paramters such as experiment_timeout_minutes, task,primary_metric, training_data, label_column_name, n_cross_validations.
+Automated machine learning supports ensemble models, which are enabled by default. Ensemble learning improves machine learning results and predictive performance by combining multiple models as opposed to using single models.<br>
+The best model obtained through AutoML is VotingEnsemble. Voting Ensemble predicts based on the weighted average of predicted class probabilities (for classification tasks).<br>
+
 
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
