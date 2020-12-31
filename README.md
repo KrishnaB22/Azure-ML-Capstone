@@ -2,7 +2,11 @@
 
 # Heart Diesease Prediction Using Azure
 
-This project is part of the Udacity Azure ML Nanodegree. In this project we use Microsoft Azure to configure a cloud based machine learning production model, deploy it, consume it.
+## Overview
+This project is part of the Udacity Azure ML Nanodegree. In this project we use Microsoft Azure to configure a cloud based machine learning production model, deploy it, consume it.<br>
+The data used in this project is taken from kaggle open datasets.
+<br><br>
+<br><br>
 
 ## Summary
 The dataset used is Heart Diesease prediction dataset from <a href='https://www.kaggle.com/ronitf/heart-disease-uci'>kaggle</a>. <br>
@@ -15,20 +19,23 @@ We then compare both the results and find out which method gives better results.
 The best model was AutoML which gave an accuracy of 93%.<br>
 The best model is then deployed as a web service on Azure Container Instances.
 The model endpoints are then consumed by using the custom <i>score.py</i> script.
-
 <br><br>
 <br><br>
 ## Dataset
 
 ### Overview
-*TODO*: Explain about the data you are using and where you got it from.
+The dataset is Heart Diesease prediction and is taken from kaggle open datasets.<br>
+The dataset has 13 different attributes about the patients's heart condition.<br>
+<a href='https://www.kaggle.com/ronitf/heart-disease-uci'>Link to dataset</a><br>
+<br>
 
 ### Task
-*TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
+The task we are going to solve with this dataset is to determine whether the given patient has a heart diesease( Binary - Classification).<br>
+For the task we are going to use all the given features in the dataset.
 
 ### Access
-*TODO*: Explain how you are accessing the data in your workspace.
-
+The data is accessed in ML Studio workspace by using its url.<br>
+<br><br>
 ## Automated ML
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
 
