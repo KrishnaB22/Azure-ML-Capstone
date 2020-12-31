@@ -58,13 +58,16 @@ The model can be improved by choosing a different parameter sampling policy.<br>
 <img src='screenshots/hyp childrun.png'>
 
 ## Model Deployment
-*TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
+The best Auto-ml Model is registered and then deployed as a Webservice on Azure Container Instances.<br>
+The model endpoint can be queryed by sending a post request(containing the input data in json format) to the model over the REST url.<br>
+<img src='screenshots/ml model deploy.png'>
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+<a href=''>link</a>
 - A working model
 - Demo of the deployed  model
 - Demo of a sample request sent to the endpoint and its response
 
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+## Cleanup
+<img src='screenshots/compute delete.png'>
+
