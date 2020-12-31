@@ -42,7 +42,6 @@ The automl model has an acuuracy of 84%. The accuarcy could have been improve by
 <img src='screenshots/aml modelparam.png">
 
 ## Hyperparameter Tuning
-*TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 As this task is a classification task I have chosen a logistic-regression model from scikit-learn.
 The hyperparameters such as 'Inverse of Regularization Strength' and 'Maximum number of iterations to converge' are used for parameter sampling.<br>
 The sampling method used is RandomSampling. It supports both discrete and continuous values. It supports early termination of low-performance runs. In Random Sampling, the values are selected randomly from a defined search space.<br>
@@ -50,15 +49,13 @@ The early stopping policy used is Bandit Policy.
 Bandit Policy is based on slack factor/slack amount and evaluation interval.
 This policy will terminate runs whose primary metric is not within the specified slac factor/slack amount.<br>
 By using this policy we could improve the computational efficiency.<br>
-The best model obtained is saved.
-
-The acccuracy obtained in hyperdrive model is 
-
-
+The best model obtained is saved.<br>
 ### Results
-*TODO*: What are the results you got with your model? What were the parameters of the model? How could you have improved it?
-
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+The acccuracy obtained in hyperdrive model is 87%.<br>
+The reults can be improved by choosing a different model like decision tree,randomforests,etc.<br>
+The model can be improved by choosing a different parameter sampling policy.<br>
+<img src='screenshots/hyper runcomp.png">
+<img src='screenshots/hyper runcomp ml.png">
 
 ## Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
