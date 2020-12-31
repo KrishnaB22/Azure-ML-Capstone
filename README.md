@@ -1,13 +1,23 @@
 # Azure-ML-Capstone
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
 
-# Your Project Title Here
+# Heart Diesease Prediction Using Azure
 
-*TODO:* Write a short introduction to your project.
+This project is part of the Udacity Azure ML Nanodegree. In this project we use Microsoft Azure to configure a cloud based machine learning production model, deploy it, consume it.
 
-## Project Set Up and Installation
-*OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
+## Summary
+The dataset used is Heart Diesease prediction dataset from <a href='https://www.kaggle.com/ronitf/heart-disease-uci'>kaggle</a>. <br>
+We have to predict whether a patient has a heart diesease or not.<br>
+The model used is a custom coded model-a sci-kit learn Logistic Regression model.
+At first, the hyperparameters are tuned using the tool Hyperdrive.<br>
+We save the best model obtained through this.<br>
+Next, using Automated Machine Learning(AutoML) an optimal model is determined.<br>
+We then compare both the results and find out which method gives better results.
+The best model was AutoML which gave an accuracy of 93%.<br>
+The best model is then deployed as a web service on Azure Container Instances.
+The model endpoints are then consumed by using the custom <i>score.py</i> script.
 
+<br><br>
+<br><br>
 ## Dataset
 
 ### Overview
