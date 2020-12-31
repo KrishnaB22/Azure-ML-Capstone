@@ -70,10 +70,10 @@ The model endpoint can be queryed by sending a post request(containing the input
 - Demo of a sample request sent to the endpoint and its response
 
 ## Future work
-Creating a pipeline.
-Conversion of models to ONXX format.
-The AutoML primary metric can be changed to see if we can get better results.
-Deploying the model to Egde Iot
+Creating a pipeline.<br>
+Conversion of models to ONXX format.<br>
+The AutoML primary metric can be changed to see if we can get better results.<br>
+Deploying the model to Egde Iot.<br>
 
 ## Cleanup
 <img src='screenshots/compute delete.png'>
