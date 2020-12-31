@@ -28,7 +28,9 @@ The dataset has 13 different attributes about the patients's heart condition.<br
 The task we are going to solve with this dataset is to determine whether the given patient has a heart diesease( Binary - Classification).<br>
 For the task we are going to use all the given features in the dataset.
 ### Access
-The data is accessed in ML Studio workspace by using its url.<br>
+The data is accessed in ML Studio workspace by using its url from github.<br>
+For simplicity I have uploaded the datset to this repository as downloading a dataset through kaggle link in notebook requires login.<br>
+The dats is loaded using <i>TabularDatasetFactory()</i> function which is available in azure-ml.
 <br><br>
 ## Automated ML
 Automated Machine Learning(AutoML) is the process of automating the entire Machine Learning pipeline.
@@ -43,7 +45,7 @@ Automl best model<br>
 Automl best model param<br>
 <img src='screenshots/aml modelparam.png'>
 Best model and run_id<br>
-<img src='screenshots/aml nb runid(2).png'>
+<img src='screenshots/aml nb runid (2).png'>
 best estimator from model
 <img src='screenshots/aml nb model details.png'>
 
@@ -69,7 +71,7 @@ Best model details
 ## Model Deployment
 The best Auto-ml Model is registered and then deployed as a Webservice on Azure Container Instances.<br>
 The model endpoint can be queryed by sending a post request(containing the input data in json format) to the model over the REST url.<br>
-<img src='screenshots/ml model deploy.png'>
+<img src='screenshots/ml model deploy.png'><br>
 Sample code querying request by REST url
 <img src='screenshots/endpoint request.png'>
 
