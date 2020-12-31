@@ -23,7 +23,3 @@ def run(data):
         error = str(e)
         return error
 
-
-#data = json.loads(data)['data']
-#data = pd.DataFrame.from_dict(data)
-#result = model.predict(data)
