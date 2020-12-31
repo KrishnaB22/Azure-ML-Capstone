@@ -1,0 +1,10 @@
+Welcome to the project, in this project heart diesease prediction datset is used to predict whether a 
+patient has heart diesease or not.
+The best model is the automl model which has an accuracy of 93%.
+I have also registered the best automl model in azure as you can see it here.
+I have also loaded my environment configuration from my environment file.
+The model is deployed as a web service on Azure container instances.
+This is a sample input to the model.
+As you can see the model returns the output.
+This is a request to the model via the REST api as you can see the rest endpoint is working fine
+and the model gives correct result.
