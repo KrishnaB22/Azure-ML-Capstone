@@ -64,7 +64,7 @@ The model endpoint can be queryed by sending a post request(containing the input
 <img src='screenshots/ml model deploy.png'>
 
 ## Screen Recording
-<a href=''>link</a>
+<a href='https://drive.google.com/file/d/1bu9IGUMd8aJBRpqdMK704dDvqtdnyBqL/view'>link</a>
 - A working model
 - Demo of the deployed  model
 - Demo of a sample request sent to the endpoint and its response
