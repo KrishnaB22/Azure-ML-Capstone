@@ -76,7 +76,10 @@ Sample code querying request by REST url
 <img src='screenshots/endpoint request.png'>
 
 ## Screen Recording
-<a href='https://drive.google.com/file/d/1bu9IGUMd8aJBRpqdMK704dDvqtdnyBqL/view'>link</a>
+<a href='https://drive.google.com/file/d/1bu9IGUMd8aJBRpqdMK704dDvqtdnyBqL/view'>link</a><br>
+As the audio in the scrren cast is not working due to some reason I am providing the link to transcript and also the separate audio file.
+<a href='https://drive.google.com/file/d/1bjMlV3efXr2I76xcxIrhLWAnFxQ60V42/view'>link to audio<br>
+<a href='screenshots/transcript.txt'>link to transcript<br>
 - A working model
 - Demo of the deployed  model
 - Demo of a sample request sent to the endpoint and its response
