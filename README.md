@@ -38,8 +38,15 @@ The best model obtained through AutoML is VotingEnsemble. Voting Ensemble predic
 ### Results
 The automl model has an acuuracy of 84%. The accuarcy could have been improve by increasing the<i>experiment_timeout_minutes</i> parameter as will run the automl for longer which may increase its accuracy.
 <img src='screenshots/aml runcomp.png'>
+Automl best model<br>
 <img src='screenshots/aml model.png'>
+Automl best model param<br>
 <img src='screenshots/aml modelparam.png'>
+Best model and run_id<br>
+<img src='screenshots/aml nb runid(2).png'>
+best estimator from model
+<img src='screenshots/aml nb model details.png'>
+
 
 ## Hyperparameter Tuning
 As this task is a classification task I have chosen a logistic-regression model from scikit-learn.
@@ -56,11 +63,15 @@ The reults can be improved by choosing a different model like decision tree,rand
 The model can be improved by choosing a different parameter sampling policy.<br>
 <img src='screenshots/hyper runcomp.png'>
 <img src='screenshots/hyp childrun.png'>
+Best model details
+<img src='screenshots/hyp model details.png'>
 
 ## Model Deployment
 The best Auto-ml Model is registered and then deployed as a Webservice on Azure Container Instances.<br>
 The model endpoint can be queryed by sending a post request(containing the input data in json format) to the model over the REST url.<br>
 <img src='screenshots/ml model deploy.png'>
+Sample code querying request by REST url
+<img src='screenshots/endpoint request.png'>
 
 ## Screen Recording
 <a href='https://drive.google.com/file/d/1bu9IGUMd8aJBRpqdMK704dDvqtdnyBqL/view'>link</a>
