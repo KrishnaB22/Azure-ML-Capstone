@@ -39,15 +39,15 @@ Automated machine learning supports ensemble models, which are enabled by defaul
 The best model obtained through AutoML is VotingEnsemble. Voting Ensemble predicts based on the weighted average of predicted class probabilities (for classification tasks).<br>
 ### Results
 The automl model has an acuuracy of 84%. The accuarcy could have been improve by increasing the<i>experiment_timeout_minutes</i> parameter as will run the automl for longer which may increase its accuracy.
-<img src='screenshots/aml runcomp.png'>
+<img src='screenshots/aml runcomp.png'><br>
 Automl best model<br>
-<img src='screenshots/aml model.png'>
+<img src='screenshots/aml model.png'><br>
 Automl best model param<br>
-<img src='screenshots/aml modelparam.png'>
+<img src='screenshots/aml modelparam.png'><br>
 Best model and run_id<br>
-<img src='screenshots/aml nb runid (2).png'>
+<img src='screenshots/aml nb runid (2).png'><br>
 best estimator from model
-<img src='screenshots/aml nb model details.png'>
+<img src='screenshots/aml nb model details.png'><br>
 
 
 ## Hyperparameter Tuning
@@ -63,17 +63,17 @@ The best model obtained is saved.<br>
 The acccuracy obtained in hyperdrive model is 87%.<br>
 The reults can be improved by choosing a different model like decision tree,randomforests,etc.<br>
 The model can be improved by choosing a different parameter sampling policy.<br>
-<img src='screenshots/hyper runcomp.png'>
-<img src='screenshots/hyp childrun.png'>
+<img src='screenshots/hyper runcomp.png'><br>
+<img src='screenshots/hyp childrun.png'><br>
 Best model details
-<img src='screenshots/hyp model details.png'>
+<img src='screenshots/hyp model details.png'><br>
 
 ## Model Deployment
 The best Auto-ml Model is registered and then deployed as a Webservice on Azure Container Instances.<br>
 The model endpoint can be queryed by sending a post request(containing the input data in json format) to the model over the REST url.<br>
 <img src='screenshots/ml model deploy.png'><br>
 Sample code querying request by REST url
-<img src='screenshots/endpoint request.png'>
+<img src='screenshots/endpoint request.png'><br>
 
 ## Screen Recording
 <a href='https://drive.google.com/file/d/1bu9IGUMd8aJBRpqdMK704dDvqtdnyBqL/view'>link to video</a><br>
