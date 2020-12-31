@@ -17,6 +17,7 @@ We then compare both the results and find out which method gives better results.
 The best model was AutoML which gave an accuracy of 93%.<br>
 The best model is then deployed as a web service on Azure Container Instances.
 The model endpoints are then consumed by using the custom <i>score.py</i> script.
+<img src='screenshots/block diagram.png'>
 <br><br>
 ## Dataset
 
