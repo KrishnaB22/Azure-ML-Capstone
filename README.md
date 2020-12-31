@@ -37,9 +37,9 @@ Automated machine learning supports ensemble models, which are enabled by defaul
 The best model obtained through AutoML is VotingEnsemble. Voting Ensemble predicts based on the weighted average of predicted class probabilities (for classification tasks).<br>
 ### Results
 The automl model has an acuuracy of 84%. The accuarcy could have been improve by increasing the<i>experiment_timeout_minutes</i> parameter as will run the automl for longer which may increase its accuracy.
-<img src='screenshots/aml runcomp.png">
-<img src='screenshots/aml model.png">
-<img src='screenshots/aml modelparam.png">
+<img src='screenshots/aml runcomp.png'>
+<img src='screenshots/aml model.png'>
+<img src='screenshots/aml modelparam.png'>
 
 ## Hyperparameter Tuning
 As this task is a classification task I have chosen a logistic-regression model from scikit-learn.
@@ -54,8 +54,8 @@ The best model obtained is saved.<br>
 The acccuracy obtained in hyperdrive model is 87%.<br>
 The reults can be improved by choosing a different model like decision tree,randomforests,etc.<br>
 The model can be improved by choosing a different parameter sampling policy.<br>
-<img src='screenshots/hyper runcomp.png">
-<img src='screenshots/hyper runcomp ml.png">
+<img src='screenshots/hyper runcomp.png'>
+<img src='screenshots/hyper runcomp ml.png'>
 
 ## Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
