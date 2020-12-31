@@ -6,8 +6,6 @@
 This project is part of the Udacity Azure ML Nanodegree. In this project we use Microsoft Azure to configure a cloud based machine learning production model, deploy it, consume it.<br>
 The data used in this project is taken from kaggle open datasets.
 <br><br>
-<br><br>
-
 ## Summary
 The dataset used is Heart Diesease prediction dataset from <a href='https://www.kaggle.com/ronitf/heart-disease-uci'>kaggle</a>. <br>
 We have to predict whether a patient has a heart diesease or not.<br>
@@ -27,12 +25,9 @@ The model endpoints are then consumed by using the custom <i>score.py</i> script
 The dataset is Heart Diesease prediction and is taken from kaggle open datasets.<br>
 The dataset has 13 different attributes about the patients's heart condition.<br>
 <a href='https://www.kaggle.com/ronitf/heart-disease-uci'>Link to dataset</a><br>
-<br>
-
 ### Task
 The task we are going to solve with this dataset is to determine whether the given patient has a heart diesease( Binary - Classification).<br>
 For the task we are going to use all the given features in the dataset.
-
 ### Access
 The data is accessed in ML Studio workspace by using its url.<br>
 <br><br>
