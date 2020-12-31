@@ -55,7 +55,7 @@ The acccuracy obtained in hyperdrive model is 87%.<br>
 The reults can be improved by choosing a different model like decision tree,randomforests,etc.<br>
 The model can be improved by choosing a different parameter sampling policy.<br>
 <img src='screenshots/hyper runcomp.png'>
-<img src='screenshots/hyper childrun.png'>
+<img src='screenshots/hyp childrun.png'>
 
 ## Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
