@@ -5,8 +5,7 @@
 ## Overview
 This project is part of the Udacity Azure ML Nanodegree. In this project we use Microsoft Azure to configure a cloud based machine learning production model, deploy it, consume it.<br>
 The data used in this project is taken from kaggle open datasets.
-<br><br>
-## Summary
+<br>
 The dataset used is Heart Diesease prediction dataset from <a href='https://www.kaggle.com/ronitf/heart-disease-uci'>kaggle</a>. <br>
 We have to predict whether a patient has a heart diesease or not.<br>
 The model used is a custom coded model-a sci-kit learn Logistic Regression model.
